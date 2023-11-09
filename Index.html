@@ -14691,7 +14691,70 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">folium</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Collecting foliumNote: you may need to restart the kernel to use updated packages.
+
+  Obtaining dependency information for folium from https://files.pythonhosted.org/packages/a2/1a/37c7ee1bc806d6c32621fecc72c19f6a9f9b4369e5e8f406a7c16d49f031/folium-0.15.0-py2.py3-none-any.whl.metadata
+  Downloading folium-0.15.0-py2.py3-none-any.whl.metadata (3.4 kB)
+Collecting branca&gt;=0.6.0 (from folium)
+  Obtaining dependency information for branca&gt;=0.6.0 from https://files.pythonhosted.org/packages/2f/e7/603b136221de923055716d23e3047da71f92e0d8ba2c4517ce49a54fe768/branca-0.7.0-py3-none-any.whl.metadata
+  Downloading branca-0.7.0-py3-none-any.whl.metadata (1.5 kB)
+Requirement already satisfied: jinja2&gt;=2.9 in c:\users\asus\anaconda3\lib\site-packages (from folium) (3.1.2)
+Requirement already satisfied: numpy in c:\users\asus\anaconda3\lib\site-packages (from folium) (1.24.3)
+Requirement already satisfied: requests in c:\users\asus\anaconda3\lib\site-packages (from folium) (2.31.0)
+Requirement already satisfied: MarkupSafe&gt;=2.0 in c:\users\asus\anaconda3\lib\site-packages (from jinja2&gt;=2.9-&gt;folium) (2.1.1)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in c:\users\asus\anaconda3\lib\site-packages (from requests-&gt;folium) (2.0.4)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in c:\users\asus\anaconda3\lib\site-packages (from requests-&gt;folium) (3.4)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in c:\users\asus\anaconda3\lib\site-packages (from requests-&gt;folium) (1.26.16)
+Requirement already satisfied: certifi&gt;=2017.4.17 in c:\users\asus\anaconda3\lib\site-packages (from requests-&gt;folium) (2023.7.22)
+Downloading folium-0.15.0-py2.py3-none-any.whl (100 kB)
+   ---------------------------------------- 0.0/100.3 kB ? eta -:--:--
+   ---------------------------------------- 0.0/100.3 kB ? eta -:--:--
+   ---- ----------------------------------- 10.2/100.3 kB ? eta -:--:--
+   ----------- --------------------------- 30.7/100.3 kB 259.2 kB/s eta 0:00:01
+   --------------- ----------------------- 41.0/100.3 kB 279.3 kB/s eta 0:00:01
+   -------------------------------------- 100.3/100.3 kB 479.1 kB/s eta 0:00:00
+Downloading branca-0.7.0-py3-none-any.whl (25 kB)
+Installing collected packages: branca, folium
+Successfully installed branca-0.7.0 folium-0.15.0
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">ee</span>
@@ -14725,12 +14788,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">ModuleNotFoundError</span>                       Traceback (most recent call last)
-Cell <span class="ansi-green-intense-fg ansi-bold">In[2], line 1</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span> <span class="ansi-bold" style="color: rgb(0,0,255)">folium</span>
-<span class="ansi-green-fg">      2</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span> <span class="ansi-bold" style="color: rgb(0,0,255)">geehydro</span>
-<span class="ansi-green-fg">      3</span> Map <span style="color: rgb(98,98,98)">=</span> folium<span style="color: rgb(98,98,98)">.</span>Map(location<span style="color: rgb(98,98,98)">=</span>[<span style="color: rgb(98,98,98)">-</span><span style="color: rgb(98,98,98)">11.739408</span>, <span style="color: rgb(98,98,98)">-</span><span style="color: rgb(98,98,98)">75.068589</span>], zoom_start<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(98,98,98)">16</span>)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[1], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span> <span class="ansi-bold" style="color: rgb(0,0,255)">ee</span>
+<span class="ansi-green-fg">      2</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span> <span class="ansi-bold" style="color: rgb(0,0,255)">folium</span>
+<span class="ansi-green-fg">      3</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span> <span class="ansi-bold" style="color: rgb(0,0,255)">geehydro</span>
 
-<span class="ansi-red-intense-fg ansi-bold">ModuleNotFoundError</span>: No module named &#39;folium&#39;</pre>
+<span class="ansi-red-intense-fg ansi-bold">ModuleNotFoundError</span>: No module named &#39;ee&#39;</pre>
 </div>
 </div>
 
@@ -14822,20 +14885,18 @@ Cell <span class="ansi-green-intense-fg ansi-bold">In[2], line 1</span>
 <center>Elaborado por: Equipo Técnico</center>
 
 
-<p> <center> <img src="Mapa político del Perú.png" style="width:500px;height:400px"> </center> </p>
+<p> <center> <img src="MAPA POLITICO DEL PERU.png" style="width:500px;height:400px"> </center> </p>
 <center>Mapa político del Perú</center>
 
-<p> <center> <img src="Mapa de la provincia de Junín.png" style="width:500px;height:400px"> </center> </p>
+<p> <center> <img src="MAPA PROVINCIA DE JUNIN.png" style="width:500px;height:400px"> </center> </p>
 <center>Mapa de la provincia de Junín</center>
 
-<p> <center> <img src="Mapa de la provincia de Concepción.png" style="width:500px;height:400px"> </center> </p>
+<p> <center> <img src="MAPA PROVINCIA DE CONCEPCION.png" style="width:500px;height:400px"> </center> </p>
 <center>Mapa de la provincia de Concepción</center>
 
-<p> <center> <img src="Comunidad campesina de Pusacpampa.png" style="width:500px;height:400px"> </center> </p>
+<p> <center> <img src="COMUNIDAD CAMPESINA DE PUSACPAMPA.png" style="width:500px;height:400px"> </center> </p>
 <center>Comunidad campesina de Pusacpampa</center>
 
-<p> <center> <img src="Vista panorámica vía de ingreso a la localidad Pusacpampa.png" style="width:500px;height:400px"> </center> </p>
-<center>Vista panorámica vía de ingreso a la localidad Pusacpampa</center>
 <center>Fuente: Google Earth</center>
 
 <p>1.2.2. Vías De Acceso</p>
